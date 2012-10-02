@@ -1,0 +1,12 @@
+/*
+Theme Name: Error
+Theme URI: typaulh.us
+Description: Starkers basedtheme. Sass
+Version: 1.0
+Author: Ty Paulhus
+Author URI: http://typaulh.us
+Tags: starkers, html5, naked, clean, basic
+*/
+
+@import "css/reset.css";
+@import "css/layout.css";
