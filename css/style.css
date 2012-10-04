@@ -243,32 +243,34 @@ nav {
 /* line 276, ../sass/style.scss */
 aside {
   width: 25%;
-  float: right; }
+  float: right;
+  padding-top: 1em; }
 
-/* line 281, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 aside li {
   list-style: none; }
 
-/* line 285, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 aside #s {
   width: 25%; }
 
-/* line 289, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .c {
-  position: relative; }
+  position: relative;
+  padding-top: 1em; }
 
-/* line 294, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .sidebar {
   font-size: 1em;
   position: absolute;
   top: 0px;
   right: 0px; }
-  /* line 299, ../sass/style.scss */
+  /* line 301, ../sass/style.scss */
   .sidebar li a {
     border-bottom: 1px solid #e8ad2d; }
 
 /* h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;} */
-/* line 302, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 h3 {
   color: #e8ad2d;
   font-size: 1.2em;
@@ -276,7 +278,7 @@ h3 {
   padding-bottom: 10px;
   font-family: bree-serif, helvetica, arial, sans-serif; }
 
-/* line 303, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 li a {
   color: #373d45;
   line-height: 1.1em;
@@ -284,28 +286,28 @@ li a {
   clear: both;
   padding-top: 8px;
   padding-bottom: 8px; }
-  /* line 305, ../sass/style.scss */
+  /* line 307, ../sass/style.scss */
   li a:hover {
     color: #e8ad2d; }
-  /* line 312, ../sass/style.scss */
+  /* line 314, ../sass/style.scss */
   li a .textwidget {
     color: #928465;
     font-size: .8em;
     line-height: 1.2em; }
 
-/* line 315, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 aside ul {
   list-style: none;
   padding: 0px; }
 
 /* About template *****************************************/
-/* line 324, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .aboutMain {
   width: 70%;
   float: left;
   clear: both; }
 
-/* line 330, ../sass/style.scss */
+/* line 332, ../sass/style.scss */
 .rounded {
   background-color: #e8ad2d;
   padding: 5px;
@@ -319,16 +321,16 @@ aside ul {
   color: #fff;
   font-size: 1em; }
 
-/* line 341, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 .sidebarabout {
   font-family: bree-serif, serif; }
-  /* line 343, ../sass/style.scss */
+  /* line 345, ../sass/style.scss */
   .sidebarabout p {
     font-size: .8em;
     color: #e8ad2d; }
 
 /* TOGGLE NAV    =================================== */
-/* line 348, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 a.menu-link {
   color: #fff;
   font-family: bree-serif;
@@ -346,7 +348,7 @@ a.menu-link {
   border-radius: 5px;
   padding-top: .6em; }
 
-/* line 361, ../sass/style.scss */
+/* line 363, ../sass/style.scss */
 nav[role=navigation] {
   -webkit-transition: all ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -354,17 +356,17 @@ nav[role=navigation] {
   -o-transition: all 0.3s ease-out;
   transition: all ease-out; }
 
-/* line 368, ../sass/style.scss */
+/* line 370, ../sass/style.scss */
 .js nav[role=navigation] {
   overflow: hidden;
   max-height: 0; }
 
-/* line 372, ../sass/style.scss */
+/* line 374, ../sass/style.scss */
 nav[role=navigation].active {
   max-height: 15em;
   padding-top: 20px;
   width: 100%; }
-  /* line 376, ../sass/style.scss */
+  /* line 378, ../sass/style.scss */
   nav[role=navigation].active li {
     width: 100%;
     background-color: #e8ad2d;
@@ -373,27 +375,27 @@ nav[role=navigation].active {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-    /* line 380, ../sass/style.scss */
+    /* line 382, ../sass/style.scss */
     nav[role=navigation].active li :hover {
       background-color: #b57d03; }
-    /* line 381, ../sass/style.scss */
+    /* line 383, ../sass/style.scss */
     nav[role=navigation].active li a {
       color: #fff;
       font-family: bree-serif;
       font-size: 1em;
       text-shadow: 0px 1px 2px #c08104; }
 
-/* line 391, ../sass/style.scss */
+/* line 393, ../sass/style.scss */
 nav[role=navigation] ul {
   margin: 0;
   padding: 0;
   /* 			border-top: 1px solid $link; */ }
-  /* line 395, ../sass/style.scss */
+  /* line 397, ../sass/style.scss */
   nav[role=navigation] ul li {
     margin-top: .2em;
     margin-bottom: .2em; }
 
-/* line 400, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 nav[role=navigation] li a {
   display: block;
   /* 			padding: 0.1em; */
@@ -401,46 +403,46 @@ nav[role=navigation] li a {
   /* 			border-bottom: 1px solid $link; */ }
 
 @media screen and (min-width: 35em) {
-  /* line 408, ../sass/style.scss */
+  /* line 410, ../sass/style.scss */
   a.menu-link {
     display: none; }
 
-  /* line 411, ../sass/style.scss */
+  /* line 413, ../sass/style.scss */
   .js nav[role=navigation] {
     max-height: none; }
 
-  /* line 414, ../sass/style.scss */
+  /* line 416, ../sass/style.scss */
   nav#menu [role=navigation] {
     clear: both; }
 
-  /* line 417, ../sass/style.scss */
+  /* line 419, ../sass/style.scss */
   nav[role=navigation] ul {
     margin: 0 0 0 -0.25em;
     border: 0; }
 
-  /* line 422, ../sass/style.scss */
+  /* line 424, ../sass/style.scss */
   nav[role=navigation] li {
     display: inline-block;
     margin: 0 0.25em; }
 
-  /* line 426, ../sass/style.scss */
+  /* line 428, ../sass/style.scss */
   nav[role=navigation] li a {
     /* 				border: 0; */ } }
 /*Work template *****************************************/
-/* line 433, ../sass/style.scss */
+/* line 435, ../sass/style.scss */
 .workMain {
   width: 100%;
   float: left;
   clear: both; }
 
 /*Work ****************************************************/
-/* line 442, ../sass/style.scss */
+/* line 444, ../sass/style.scss */
 .g {
   /* 			background-color: green; */
   padding: 0.25em;
   overflow: hidden; }
 
-/* line 447, ../sass/style.scss */
+/* line 449, ../sass/style.scss */
 .g li {
   /* 			clear: both; */
   float: left;
@@ -448,100 +450,100 @@ nav[role=navigation] li a {
   padding: 0.25em;
   list-style: none; }
 
-/* line 454, ../sass/style.scss */
+/* line 456, ../sass/style.scss */
 .g img {
   display: block; }
 
-/* line 457, ../sass/style.scss */
+/* line 459, ../sass/style.scss */
 .g li:nth-child(odd) {
   clear: left; }
 
 @media screen and (min-width: 30em) {
-  /* line 461, ../sass/style.scss */
+  /* line 463, ../sass/style.scss */
   .g {
     /* 				background-color: black; */ }
 
-  /* line 464, ../sass/style.scss */
+  /* line 466, ../sass/style.scss */
   .g li {
     width: 45%; }
 
-  /* line 467, ../sass/style.scss */
+  /* line 469, ../sass/style.scss */
   .g li:nth-child(2n+1) {
     clear: left; }
 
-  /* line 470, ../sass/style.scss */
+  /* line 472, ../sass/style.scss */
   .g li:nth-child(odd) {
     clear: none; } }
 @media screen and (min-width: 40em) {
-  /* line 477, ../sass/style.scss */
+  /* line 479, ../sass/style.scss */
   .g {
     /* 				background-color: grey; */ }
 
-  /* line 480, ../sass/style.scss */
+  /* line 482, ../sass/style.scss */
   .g li {
     width: 31%; }
 
-  /* line 483, ../sass/style.scss */
+  /* line 485, ../sass/style.scss */
   .g li:nth-child(3n+1) {
     clear: left; }
 
-  /* line 486, ../sass/style.scss */
+  /* line 488, ../sass/style.scss */
   .g li:nth-child(odd) {
     clear: none; } }
 @media screen and (min-width: 60em) {
-  /* line 491, ../sass/style.scss */
+  /* line 493, ../sass/style.scss */
   .g {
     /* 				background-color: fuchsia; */ }
 
-  /* line 494, ../sass/style.scss */
+  /* line 496, ../sass/style.scss */
   .g li {
     width: 23%; }
 
-  /* line 497, ../sass/style.scss */
+  /* line 499, ../sass/style.scss */
   .g li:nth-child(4n+1) {
     clear: left; }
 
-  /* line 500, ../sass/style.scss */
+  /* line 502, ../sass/style.scss */
   .g li:nth-child(3n+1) {
     clear: none; } }
 @media screen and (min-width: 72em) {
-  /* line 505, ../sass/style.scss */
+  /* line 507, ../sass/style.scss */
   .g {
     /* 				background-color: yellow; */ }
 
-  /* line 508, ../sass/style.scss */
+  /* line 510, ../sass/style.scss */
   .g li {
     width: 18%; }
 
-  /* line 511, ../sass/style.scss */
+  /* line 513, ../sass/style.scss */
   .g li:nth-child(5n+1) {
     clear: left; }
 
-  /* line 514, ../sass/style.scss */
+  /* line 516, ../sass/style.scss */
   .g li:nth-child(4n+1) {
     clear: none; } }
 @media screen and (min-width: 90em) {
-  /* line 519, ../sass/style.scss */
+  /* line 521, ../sass/style.scss */
   .g {
     /* 				background-color: aqua; */ }
 
-  /* line 522, ../sass/style.scss */
+  /* line 524, ../sass/style.scss */
   .g li {
     width: 15%; }
 
-  /* line 525, ../sass/style.scss */
+  /* line 527, ../sass/style.scss */
   .g li:nth-child(6n+1) {
     clear: left; }
 
-  /* line 528, ../sass/style.scss */
+  /* line 530, ../sass/style.scss */
   .g li:nth-child(5n+1) {
     clear: none; } }
 /* COMMENTS **********************/
-/* line 535, ../sass/style.scss */
+/* line 537, ../sass/style.scss */
 #respond {
   clear: both; }
 
-/* line 539, ../sass/style.scss */
+/* line 541, ../sass/style.scss */
 h3#reply-title {
   color: #e8ad2d;
   font-size: 1.2em;
@@ -549,19 +551,19 @@ h3#reply-title {
   padding-bottom: 10px;
   font-family: bree-serif, helvetica, arial, sans-serif; }
 
-/* line 546, ../sass/style.scss */
+/* line 548, ../sass/style.scss */
 p.logged-in-as {
   font-size: 1em;
   margin: 0; }
 
-/* line 550, ../sass/style.scss */
+/* line 552, ../sass/style.scss */
 textarea#comment {
   color: #373d45;
   font-family: 'ColaborateLightRegular', helvetica, arial, sans-serif;
   border: 1px solid #e8ad2d;
   padding: .6em; }
 
-/* line 557, ../sass/style.scss */
+/* line 559, ../sass/style.scss */
 input#submit {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -572,11 +574,11 @@ input#submit {
   background-color: #e8ad2d;
   color: #fff;
   border: 0; }
-  /* line 563, ../sass/style.scss */
+  /* line 565, ../sass/style.scss */
   input#submit:hover {
     background-color: #cb8803; }
 
-/* line 565, ../sass/style.scss */
+/* line 567, ../sass/style.scss */
 #comments-title {
   clear: both; }
 
@@ -584,61 +586,61 @@ input#submit {
 Netbook
 *********************/
 @media (max-width: 70em) {
-  /* line 578, ../sass/style.scss */
+  /* line 580, ../sass/style.scss */
   .sidebar, .sidebarabout {
     clear: both;
     width: 100%;
     margin-top: 2em;
     position: relative; }
 
-  /* line 585, ../sass/style.scss */
+  /* line 587, ../sass/style.scss */
   .container {
     width: 80%;
     padding-top: 30px;
     margin: 0px auto; }
 
-  /* line 591, ../sass/style.scss */
+  /* line 593, ../sass/style.scss */
   p {
     font-size: 1.3em; }
 
-  /* line 595, ../sass/style.scss */
+  /* line 597, ../sass/style.scss */
   article {
     width: 100%;
     margin: 0 auto; }
 
-  /* line 600, ../sass/style.scss */
+  /* line 602, ../sass/style.scss */
   nav {
     /* 	clear: both; */
     padding-left: 0px;
     /* 	margin: 0 auto; */
     /* 	float: left; */ }
-    /* line 605, ../sass/style.scss */
+    /* line 607, ../sass/style.scss */
     nav ul {
       padding-left: 0px; }
 
-  /* line 610, ../sass/style.scss */
+  /* line 612, ../sass/style.scss */
   header ul li {
     display: block;
     margin-right: .2em; }
-    /* line 613, ../sass/style.scss */
+    /* line 615, ../sass/style.scss */
     header ul li a {
       font-size: 1em; }
 
-  /* line 617, ../sass/style.scss */
+  /* line 619, ../sass/style.scss */
   article {
     /* 	p { font-size: 2em; line-height: 1.4em;} */ }
-    /* line 618, ../sass/style.scss */
+    /* line 620, ../sass/style.scss */
     article h2 {
       font-size: 1.6em;
       margin-top: .5em;
       line-height: 1.1em; }
 
-  /* line 622, ../sass/style.scss */
+  /* line 624, ../sass/style.scss */
   .logo_margin {
     margin: 0px 50px 0px 0px;
     padding-left: 0px; }
 
-  /* line 627, ../sass/style.scss */
+  /* line 629, ../sass/style.scss */
   .aboutMain {
     width: 100%;
     float: left;
@@ -648,16 +650,16 @@ Netbook
 Phone
 *********************/
 @media (max-width: 30em) {
-  /* line 644, ../sass/style.scss */
+  /* line 646, ../sass/style.scss */
   .sidebar {
     clear: both;
     width: 100%;
     margin-top: 2em; }
 
-  /* line 652, ../sass/style.scss */
+  /* line 654, ../sass/style.scss */
   header ul li a {
     font-size: .8em; }
 
-  /* line 655, ../sass/style.scss */
+  /* line 657, ../sass/style.scss */
   p {
     font-size: 1.1em; } }
