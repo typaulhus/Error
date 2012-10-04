@@ -118,9 +118,11 @@ $linkshadow: #c08104;
 
 body {
        font-family: 'ColaborateLightRegular', helvetica, arial, sans-serif;
-       background-image: url("../images/brillant/brillant.png");
+       -webkit-font-smoothing: antialiased;
+       //background-image: url("../images/brillant/brillant.png");
+       background-image: url("../images/subtle_dots/subtle_dots.png");
        color: $mainColor;
-       text-shadow: 0px 1px 2px #fff;
+       //text-shadow: 0px 1px 2px #fff;
        background-color: #fff;
        line-height: 1.3em;
        font-size: 1.3em;
@@ -284,8 +286,18 @@ aside #s {
 	width: $widthSide;
 }
 
+.c {
+	position: relative;
+}
+
+
 .sidebar{
 	font-size: 1em;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	li a {border-bottom: 1px solid $link;}
+	}
 	/* h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;} */
 	h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: bree-serif, helvetica, arial, sans-serif;}
 	li a{
@@ -296,8 +308,7 @@ aside #s {
 	clear: both;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	border-bottom: 1px solid $link;
-	}
+	//border-bottom: 1px solid $link;
 	.textwidget {color: #928465; font-size: .8em; line-height: 1.2em;}
 	}
 
@@ -568,6 +579,7 @@ Netbook
 	clear: both;
 	width: 100%;
 	margin-top: 2em;
+	position: relative;
 }
 
 .container {

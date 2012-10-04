@@ -9,6 +9,8 @@
  
 get_header(); ?>
 
-	 <?php get_template_part( 'sidebar' ); ?>
+	<div class="c">
 	 <?php get_template_part( 'loop', 'index' ); ?>
+	 <?php get_template_part( 'sidebar' ); ?>
+	</div><!-- end c -->
 <?php get_footer(); ?>

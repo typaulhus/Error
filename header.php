@@ -11,7 +11,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<!-- MAMP --> 
+<!-- MAMPtastic --> 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
  
