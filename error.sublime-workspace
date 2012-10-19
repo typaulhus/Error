@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bs",
+				"box-shadow"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"bac",
+				"background	background-color: hex"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3069,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Sass/SASS/SASS (OSX).sublime-build",
+	"command_palette":
+	{
+		"height": 207.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"pr",
+				"Project: Save As"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"fe",
+				"Fetch: Package"
+			],
+			[
+				"f",
+				"Fetch: Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Snippet: html"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"snippet if",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"ht",
+				"Snippet: html"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pad",
+				"Project: Add Folder"
+			],
+			[
+				"",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet: ",
+				"Snippet: clear: both"
+			],
+			[
+				"norm	",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"no",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet: html",
+				"Snippet: font-weight: normal"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/sass/style.scss",
+		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/header.php",
+		"/Users/tyler/Desktop/sample/js/",
+		"/Users/tyler/Desktop/sample/sample.sublime-project",
+		"/Users/tyler/Desktop/sample/script.js",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/tyler/Desktop/sample/sample.sublime-workspace",
+		"/Users/tyler/Desktop/normalize.css",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
+		"/Users/tyler/Desktop/sample/tester.html",
+		"/tmp/subl stdin xGR6mk.txt",
+		"/Users/tyler/Google Drive/Sites/MAP/sass/style.scss",
+		"/Users/tyler/Google Drive/Sites/MAP/MAP.sublime-project",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/hello.sublime-snippet",
+		"/Users/tyler/Google Drive/Sites/MAP/index.html",
+		"/Users/tyler/Desktop/index.html",
+		"/Users/tyler/Google Drive/Sites/MAP/css/style.css",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Error_NEW/sass/style.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Error_NEW/header.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Error_NEW/css/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Error_NEW/index.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error_sass/sidebar.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error_sass/sass/style.scss",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/tyler/Desktop/index2.html",
+		"/Users/tyler/Desktop/Projects/Web/jQuery/lesson-5/index.html",
+		"/Users/tyler/Desktop/Projects/Web/jQuery/lesson-5/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/starkers/README.md",
+		"/Users/tyler/Desktop/Projects/Web/imathis-octopress-90ef78e/README.markdown",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/self_invoking_function.sublime-snippet",
+		"/Users/tyler/Sites/sunriver_compass/index.html",
+		"/Users/tyler/Sites/sunriver_compass/pics.html",
+		"/Users/tyler/Sites/sunriver_compass/directions.html",
+		"/Users/tyler/Sites/jQuery/tuts_plus/index.html",
+		"/Users/tyler/Sites/jQuery/tuts_plus/scss/style.scss",
+		"/Users/tyler/Sites/sunriver_compass/sass/style.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/sass/screen.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/header.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/index.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/single.php",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/normalize.sublime-snippet",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/normalize",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/normalize.css",
+		"/Users/tyler/Sites/sunriver_compass/css/normalize.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/art.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/artwork.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/css/screen.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/Pears/sidebar.php",
+		"/Users/tyler/Sites/sunriver_compass/sass/screen.scss",
+		"/Users/tyler/Sites/sunriver_compass/test.html",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/html5_skeleton",
+		"/Users/tyler/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<</",
+			"import",
+			"@import",
+			"/* day.css */\nbody {background: yellow;}",
+			"decimal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 3069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sc",
+				"sass/style.scss"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"scss",
+				"sass/style.scss"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"sty",
+				"sass/style.scss"
+			],
+			[
+				"css",
+				"css/style.css"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"",
+				"/Users/tyler/Desktop/index2.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true
+}
