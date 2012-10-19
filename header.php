@@ -45,6 +45,7 @@
 
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
 
+
 <!-- Adobe Edge fonts -->
 <script src="http://use.edgefonts.net/bree-serif.js"></script>
 
@@ -64,7 +65,9 @@ $menulink.click(function() {
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
- 
+
+<?php wp_enqueue_script("jquery"); ?>
+
 <?php
     /* We add some JavaScript to pages with the comment form
      * to support sites with threaded comments (when in use).
@@ -79,6 +82,7 @@ $menulink.click(function() {
      */
     wp_head();
 ?>
+
 </head>
  
 <body <?php body_class(); ?>>
