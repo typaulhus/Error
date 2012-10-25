@@ -348,10 +348,7 @@ aside ul {
 	@include border-radius($corner);
 	color: #fff;
 	font-size: 1em;
-}
-
-.test {
-	background-color: $link;
+	
 }
 
 .sidebarabout {
@@ -616,7 +613,6 @@ p {
 }
 
 article {
-	
 	width: 100%;
 	margin: 0 auto;
 }

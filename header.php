@@ -8,8 +8,7 @@
  * @subpackage Starkers
  * @since Starkers HTML5 3.0
  */
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <!-- MAMPtastic --> 
@@ -40,6 +39,12 @@
 
 <!--lightbox script -->
 <link href="<?php bloginfo('template_directory'); ?>/js/lightbox/css/lightbox.css" rel="stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+<!-- <script src="<?php bloginfo('template_directory'); ?>/js/lightbox/js/jquery-1.7.2.min.js"></script> -->
+<script src="<?php bloginfo('template_directory'); ?>/js/lightbox/js/lightbox.js"></script>
+
+<script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
+
 
 <!-- Adobe Edge fonts -->
 <script src="http://use.edgefonts.net/bree-serif.js"></script>
@@ -58,10 +63,10 @@ $menulink.click(function() {
 });});
 </script>
 
-<?php wp_enqueue_script("jquery"); ?>
-
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
+<?php wp_enqueue_script("jquery"); ?>
 
 <?php
     /* We add some JavaScript to pages with the comment form
@@ -77,8 +82,6 @@ $menulink.click(function() {
      */
     wp_head();
 ?>
-
-<script src="<?php bloginfo('template_directory'); ?>/js/lightbox/js/lightbox.js"></script>
 
 </head>
  
