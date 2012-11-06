@@ -27,7 +27,15 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 3069,
+				"buffer_size": 3109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 12702,
 				"line_ending": "Unix"
 			}
 		}
@@ -284,7 +292,41 @@
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 3069,
+						"buffer_size": 3109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 12702,
 						"regions":
 						{
 						},
@@ -297,12 +339,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/SASS/Syntaxes/SASS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 4.0,
+						"translation.y": 1518.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -327,11 +368,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -355,6 +403,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"st",
+				"sass/style.scss"
+			],
 			[
 				"sc",
 				"sass/style.scss"
