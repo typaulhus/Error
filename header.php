@@ -33,7 +33,7 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css" media="screen" />
 
 <!-- Bootstrap -->
-<link href="<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
     
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 

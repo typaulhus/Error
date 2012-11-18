@@ -30,6 +30,13 @@ $maxWidth: 80%;
 $mainColor: #373d45;
 $linkshadow: #c08104;
 
+.trans {
+	transition:all .25s ease-in-out; 
+    -o-transition:all .25s ease-in-out; 
+    -moz-transition:all .25s ease-in-out; 
+    -webkit-transition:all .25s ease-in-out;
+}
+
 /* @include sticky-footer($footerHeight, ".container", ".footerPush", "footer.mainFooter"); */
 //MAMPinstall
 
@@ -314,13 +321,18 @@ aside #s {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	li a {border-bottom: 1px solid $link;}
+	//li a {border-bottom: 1px solid $link;}
 	}
 	/* h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;} */
 	h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: bree-serif, helvetica, arial, sans-serif;}
 	li a{
+		@extend .trans;
+		border-bottom: 1px solid $link;
 	color: $mainColor; 
-	&:hover {color: $link;} 
+	&:hover {
+		color: $link;
+		padding-left: 2px;
+	} 
 	line-height: 1.1em;
 	display: block;
 	clear: both;
@@ -343,6 +355,7 @@ aside ul {
 	width: $widthMain;
 	float: left;
 	clear: both;
+	padding: 2em 0 0 0;
 }
 
 .rounded {
