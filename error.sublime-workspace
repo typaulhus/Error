@@ -32,10 +32,26 @@
 			}
 		},
 		{
-			"file": "sass/style.scss",
+			"file": "loop.php",
 			"settings":
 			{
-				"buffer_size": 12702,
+				"buffer_size": 6821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sidebar.php",
+			"settings":
+			{
+				"buffer_size": 905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 293,
 				"line_ending": "Unix"
 			}
 		}
@@ -189,6 +205,7 @@
 	"file_history":
 	[
 		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/sass/style.scss",
+		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/about.php",
 		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/header.php",
 		"/Users/tyler/Desktop/sample/js/",
 		"/Users/tyler/Desktop/sample/sample.sublime-project",
@@ -262,6 +279,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".c",
 			"<</",
 			"import",
 			"@import",
@@ -275,7 +293,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -284,7 +302,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -299,17 +317,74 @@
 						"selection":
 						[
 							[
-								297,
-								297
+								738,
+								738
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
-						"translation.x": 1.0,
+						"translation.x": 0.0,
+						"translation.y": 1104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "loop.php",
+					"settings":
+					{
+						"buffer_size": 6821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6628,
+								6636
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2168.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sidebar.php",
+					"settings":
+					{
+						"buffer_size": 905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								895,
+								895
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -322,28 +397,27 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "sass/style.scss",
+					"buffer": 3,
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 12702,
+						"buffer_size": 293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								118,
+								118
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/SASS/Syntaxes/SASS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 4.0,
-						"translation.y": 1518.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -379,7 +453,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.55052422464,
 			1.0
 		],
 		"rows":
@@ -453,7 +527,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 221.0,
 	"status_bar_visible": true
 }
