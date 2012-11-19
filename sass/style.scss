@@ -151,7 +151,7 @@ img {
 a {
 	color: $link;
 	text-decoration: none;
-	&:hover {color: #b58a2c;}
+	&:hover {color: darken($link,15);}
 }
 
 p {
@@ -228,11 +228,14 @@ header ul li {
 	margin-right: .6em;
 	padding: .3em;	
 	float: left;
-	a {color: #e8ad2d; &:hover {color: #bc8d27;}    
-	-webkit-transition:color .15s ease-in;
-	-moz-transition:color 1s ease-in;
-	-o-transition:color 1s ease-in;
-	transition:color 1s ease-in; }
+	@extend .trans;
+	a {
+		color: #e8ad2d; 
+		&:hover {
+			padding-left: 0;
+			color: #bc8d27;
+		}    
+	}
 }
 
 .mainnav {
@@ -253,7 +256,8 @@ header h1 {
 .current_page_item {
 	a {
 	color: $link2;
-	border-bottom: 2px solid $link;	
+	font-weight: bold;
+	border-bottom: 3px solid $link;	
 	}
 }
 
@@ -269,7 +273,6 @@ header h1 {
 	width: 75px;
 	background-image: url("../images/tylogoyel.svg"); 
 /* 	background-image: url("../images/logo_yellow75.jpg");  */
-/* 	width: auto; */
 	background-repeat: no-repeat;
 	display: block;
 	text-indent: 100%;
@@ -321,9 +324,7 @@ aside #s {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	//li a {border-bottom: 1px solid $link;}
 	}
-	/* h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: 'ColaborateRegular', helvetica, arial, sans-serif;} */
 	h3 {color: #e8ad2d; font-size: 1.2em; margin: 0px; padding-bottom: 10px; font-family: bree-serif, helvetica, arial, sans-serif;}
 	li a{
 		@extend .trans;
@@ -355,7 +356,7 @@ aside ul {
 	width: $widthMain;
 	float: left;
 	clear: both;
-	padding: 2em 0 0 0;
+	padding: 1em 0 0 0;
 }
 
 .rounded {
@@ -372,6 +373,8 @@ aside ul {
 .sidebarabout {
 	font-family: bree-serif, serif;
 	p { font-size: .8em; color: $link;}
+		padding: 2em 0 0 0;
+
 }
 
 /* TOGGLE NAV    =================================== */

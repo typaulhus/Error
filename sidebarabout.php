@@ -11,5 +11,5 @@
 	<aside class="sidebarabout">
 	
 <!-- 	<h3>Random Factoid:</h3>
-		 -->		<img src="<?php bloginfo('template_directory'); ?>/images/tyboys.jpg">	
+		 -->		<img src="<?php bloginfo('template_directory'); ?>/images/tyboys.jpg" title="Me. sans-beard">	
 	</aside>
