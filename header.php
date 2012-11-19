@@ -31,13 +31,10 @@
     ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css" media="screen" />
-
-<!-- Bootstrap -->
-<!-- <link href="<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
     
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<!--lightbox script -->
+<!--lightbox -->
 <link href="<?php bloginfo('template_directory'); ?>/js/lightbox/css/lightbox.css" rel="stylesheet" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
 <!-- <script src="<?php bloginfo('template_directory'); ?>/js/lightbox/js/jquery-1.7.2.min.js"></script> -->
