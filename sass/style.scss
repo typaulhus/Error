@@ -193,7 +193,8 @@ article {
 footer {
 	clear: both;
 	text-align: left;
-	font-size: .7em;
+	font-size: .6em;
+	color: lighten($mainColor,20);
 	padding-top:2em;
 	padding-bottom:2em;
 }
