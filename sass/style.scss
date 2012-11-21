@@ -221,6 +221,11 @@ article footer {
 	clear: both;
 }
 
+.captions {
+	font-size: .6em;
+	color: lighten($mainColor,40);
+}
+
 /* header 
 =============================================================*/
 
@@ -373,8 +378,9 @@ aside ul {
 
 .sidebarabout {
 	font-family: bree-serif, serif;
+	//margin-top: 0;
 	p { font-size: .8em; color: $link;}
-		padding: 2em 0 0 0;
+		padding: 0 0 0 0;
 
 }
 

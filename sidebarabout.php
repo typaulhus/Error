@@ -10,6 +10,6 @@
 
 	<aside class="sidebarabout">
 	
-<!-- 	<h3>Random Factoid:</h3>
-		 -->		<img src="<?php bloginfo('template_directory'); ?>/images/tyboys.jpg" title="Me. sans-beard">	
+<p class="captions">Father, coffee lover, tattoo collector, music blaster, monster doodler.</p>
+<img src="<?php bloginfo('template_directory'); ?>/images/tyboys.jpg" title="Me. sans-beard">	
 	</aside>
