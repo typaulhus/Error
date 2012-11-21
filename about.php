@@ -20,7 +20,7 @@ Template Name: About
 		
 		<a href="https://twitter.com/typaulhus"><img src="<?php bloginfo('template_directory'); ?>/images/social/Twitter.png" title="Twitter" class="socialicons"></a>
 		
-		<a href="http://www.facebook.com/sintaxera"><img src="<?php bloginfo('template_directory'); ?>/images/social/Facebook.png" title="Facebook" class="socialicons"></a>
+		<a href="http://www.facebook.com/sintaxera"><img src="<?php bloginfo('template_directory'); ?>/images/social/FaceBook.png" title="Facebook" class="socialicons"></a>
 	</p>
 </div>
 

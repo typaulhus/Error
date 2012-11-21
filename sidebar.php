@@ -18,7 +18,7 @@
 	 */
 	if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
 
-	<h3>Recent Posts </h3>
+	<h3>Recent Posts</h3>
 	<?php wp_get_archives('type=postbypost&limit=5'); ?>
 
 

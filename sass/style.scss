@@ -362,7 +362,11 @@ aside ul {
 	width: $widthMain;
 	float: left;
 	clear: both;
-	padding: 1em 0 0 0;
+	padding: 0;
+	p {
+		margin: .5em;
+		padding: 0;
+	}
 }
 
 .rounded {
