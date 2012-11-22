@@ -8,8 +8,7 @@ Template Name: About
   
   
   <div class="aboutMain">
-	<p>
-	I am a designer, illustrator, and painter. I am also a father, a husband, coffee lover, tattoo collector, music blaster, letterer, UXer, and monster doodler. I am currently the Principal Designer at <a href="http://www.inflexxion.com/">Inflexxion, Inc.</a> but I always find time for freelance & personal side projects. 
+	<strong>My name is Ty Paulhus. </strong>I am a designer, illustrator, and painter. I am also a father, a husband, coffee lover, tattoo collector, music blaster, letterer, UXer, and monster doodler. I am currently the Principal Designer at <a href="http://www.inflexxion.com/">Inflexxion, Inc.</a> but I always find time for freelance & personal side projects. 
 	</p>
 	<p class="social">
 		<a href="http://dribbble.com/TyPaulhus"><img src="<?php bloginfo('template_directory'); ?>/images/social/Dribble.png" title="Dribbble" class="socialicons"></a>
