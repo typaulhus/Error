@@ -1,7 +1,7 @@
 3.2.2 (Media Mark)
-c1c7e351c3da320f9c73139234b98187cd3f985b
+c855e2315dea63a858d47eb34e8ec218d18ad3d3
 o:Sass::Tree::RootNode
-:@template"É2/*!
+:@template"Ï2/*!
 Theme Name: Error
 Theme URI: typaulh.us
 Description: Born from Starkers. Now an Error.
@@ -366,7 +366,7 @@ aside ul {
 	width: $widthMain;
 	float: left;
 	clear: both;
-	padding: 0;
+	padding: 1em 0;
 	.social {
 		padding: 1em 0;
 		a {
@@ -394,7 +394,7 @@ aside ul {
 	font-family: bree-serif, serif;
 	//margin-top: 0;
 	p { font-size: .8em; color: $link;}
-		padding: 0 0 0 0;
+		padding: 1em 0 0 0;
 
 }
 
@@ -1185,7 +1185,8 @@ width;.i ;
 float;.i ;
 [ o;/;o;0;;1;"	both;	@;2;3;im;	@;["
 clear;.i ;
-[ o;/;o;0;;1;"0;	@;2;3;in;	@;["padding;.i ;
+[ o;/;o;0;;1;"
+1em 0;	@;2;3;in;	@;["padding;.i ;
 [ o;!;"[".social;#o;$;%" ;io;&[o;';&[o;(
 ;%@ù;)o;*;+{ ;io;&[o;,;%@ù;io;["social;-0;io;T;	@;.i ;
 [o;/;o;0;;1;"
@@ -1219,7 +1220,7 @@ color;.i ;
 [o;/;o;0;;1;"	.8em;	@;2;3;i‰;	@;["font-size;.i ;
 [ o;/;o;E	;i‰;F"	link;	@;"	link;2;3;i‰;	@;["
 color;.i ;
-[ o;/;o;0;;1;"0 0 0 0;	@;2;3;iŠ;	@;["padding;.i ;
+[ o;/;o;0;;1;"1em 0 0 0;	@;2;3;iŠ;	@;["padding;.i ;
 [ o;
 ;;;["</* TOGGLE NAV    =================================== */;iŽ;	@;
 [ o;!;"["a.menu-link;#o;$;%" ;i;&[o;';&[o;(

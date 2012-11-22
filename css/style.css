@@ -324,7 +324,7 @@ aside ul {
   width: 70%;
   float: left;
   clear: both;
-  padding: 0; }
+  padding: 1em 0; }
   /* line 367, ../sass/style.scss */
   .aboutMain .social {
     padding: 1em 0; }
@@ -353,7 +353,7 @@ aside ul {
 /* line 390, ../sass/style.scss */
 .sidebarabout {
   font-family: bree-serif, serif;
-  padding: 0 0 0 0; }
+  padding: 1em 0 0 0; }
   /* line 393, ../sass/style.scss */
   .sidebarabout p {
     font-size: .8em;
