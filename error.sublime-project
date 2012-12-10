@@ -2,7 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error"
+			"path": "/Applications/MAMP/htdocs/wordpress/wp-content/themes/error"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/wordpress/wp-content/plugins/gold-cart-plugin-2.9.7.2"
 		}
 	]
 }

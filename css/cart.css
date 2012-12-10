@@ -1,0 +1,16 @@
+/*
+Theme Name: Error
+Theme URI: typaulh.us
+Description: Born from Starkers. Now an Error.
+Version: 1.0
+Author: Ty Paulhus
+Author URI: http://typaulh.us
+Tags: html5, clean, basic
+*/
+/* line 11, ../sass/cart.scss */
+.prodtitle {
+  color: red; }
+
+/* line 15, ../sass/cart.scss */
+.product_grid_display h2.prodtitle a:link {
+  color: red; }

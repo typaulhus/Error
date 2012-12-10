@@ -1,0 +1,34 @@
+/*!
+Theme Name: Error
+Theme URI: typaulh.us
+Description: Born from Starkers. Now an Error.
+Version: 1.0
+Author: Ty Paulhus
+Author URI: http://typaulh.us
+Tags: html5, clean, basic
+*/
+
+
+
+/* @import "reset.css"; */
+@import "normalize.css";
+@import "layout.css";
+@import "compass";
+@import "compass/layout/sticky-footer";
+
+$widthMain: 70%;
+$widthSide: 25%;
+$corner: 5px;
+$link: #e8ad2d;  
+$link2: #cb8803;
+$footerHeight: 30px;
+$maxWidth: 80%;
+$mainColor: #373d45;
+$linkshadow: #c08104;
+
+.trans {
+	transition:all .25s ease-in-out; 
+    -o-transition:all .25s ease-in-out; 
+    -moz-transition:all .25s ease-in-out; 
+    -webkit-transition:all .25s ease-in-out;
+}

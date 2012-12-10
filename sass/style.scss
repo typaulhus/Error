@@ -12,13 +12,11 @@ Tags: html5, clean, basic
 /* reset 
 ======================================================== */
 
-/* @import "reset.css"; */
+//@import "global";
 @import "normalize.css";
 @import "layout.css";
 @import "compass";
 @import "compass/layout/sticky-footer";
-
-
 
 $widthMain: 70%;
 $widthSide: 25%;
@@ -37,13 +35,9 @@ $linkshadow: #c08104;
     -webkit-transition:all .25s ease-in-out;
 }
 
-/* @include sticky-footer($footerHeight, ".container", ".footerPush", "footer.mainFooter"); */
-//MAMPinstall
-
-
-
 /* fonts 
 ========================================================*/
+
 
 
 @font-face {

@@ -1,3 +1,7 @@
+<aside class="sidebarabout">
+	<?php echo wpsc_shopping_cart(); ?> 
+</aside>
+
 <?php
 global $wp_query;
 $image_width = get_option('product_image_width');

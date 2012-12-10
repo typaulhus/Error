@@ -31,6 +31,7 @@
     ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/shop.css" media="screen" />
     
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
