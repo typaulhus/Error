@@ -27,42 +27,47 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2978,
+				"buffer_size": 3096,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "sass/shop.scss",
 			"settings":
 			{
-				"buffer_size": 293,
+				"buffer_size": 400,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sidebar.php",
+			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 904,
+				"buffer_size": 12887,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/sidebar.php",
+			"file": "sass/global.scss",
 			"settings":
 			{
-				"buffer_size": 943,
+				"buffer_size": 657,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<?php\n/**\n * The Header for our theme.\n *\n * Displays all of the <head> section\n *\n * @package WordPress\n * @subpackage Starkers\n * @since Starkers HTML5 3.0\n */\n?><!DOCTYPE html>\n<html <?php language_attributes(); ?>>\n<head>\n<!-- MAMPtastic --> \n<meta charset=\"<?php bloginfo( 'charset' ); ?>\" />\n<title><?php\n \n    global $page, $paged;\n \n    wp_title( '|', true, 'right' );\n \n    bloginfo( 'name' );\n \n    $site_description = get_bloginfo( 'description', 'display' );\n    if ( $site_description && ( is_home() || is_front_page() ) )\n        echo \" | $site_description\";\n \n    if ( $paged >= 2 || $page >= 2 )\n        echo ' | ' . sprintf( __( 'Page %s', 'starkers' ), max( $paged, $page ) );\n \n    ?></title>\n<link rel=\"profile\" href=\"http://gmpg.org/xfn/11\" />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"<?php bloginfo('template_directory'); ?>/css/style.css\" media=\"screen\" />\n\n<!-- Bootstrap -->\n<link href=\"<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n    \n<link rel=\"pingback\" href=\"<?php bloginfo( 'pingback_url' ); ?>\" />\n\n<!--lightbox script -->\n<link href=\"<?php bloginfo('template_directory'); ?>/js/lightbox/css/lightbox.css\" rel=\"stylesheet\" />\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js\" type=\"text/javascript\"></script>\n<!-- <script src=\"<?php bloginfo('template_directory'); ?>/js/lightbox/js/jquery-1.7.2.min.js\"></script> -->\n<script src=\"<?php bloginfo('template_directory'); ?>/js/lightbox/js/lightbox.js\"></script>\n\n<script src=\"<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js\"></script>\n\n\n<!-- Adobe Edge fonts -->\n<script src=\"http://use.edgefonts.net/bree-serif.js\"></script>\n\n<!-- toggle menu -->\n<script>\n$(document).ready(function() {\n  $('body').addClass('js');\n  var $menu = $('#menu'),\n    $menulink = $('.menu-link');\n  \n$menulink.click(function() {ƒ\n  $menulink.toggleClass('active');\n  $menu.toggleClass('active');\n  return false;\n});});\n</script>\n\n  <!-- Mobile viewport optimized: j.mp/bplateviewport -->\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n\n<?php wp_enqueue_script(\"jquery\"); ?>\n\n<?php\n    /* We add some JavaScript to pages with the comment form\n     * to support sites with threaded comments (when in use).\n     */\n    if ( is_singular() && get_option( 'thread_comments' ) )\n        wp_enqueue_script( 'comment-reply' );\n\n    /* Always have wp_head() just before the closing </head>\n     * tag of your theme, or you will break many plugins, which\n     * generally use this hook to add elements to <head> such\n     * as styles, scripts, and meta tags.\n     */\n    wp_head();\n?>\n\n</head>\n \n<body <?php body_class(); ?>>\n<div class=\"container\">\n    <header class=\"mainnav\">\n		 <hgroup class=\"logo\">\n			 <h1 class=\"logo_margin\">\n			 	<a href=\"<?php echo home_url( '/' ); ?>\" class=\"logoimg\">Home</a>\n			 </h1>\n		 </hgroup>  \n		 \n		 <a href=\"#menu\" class=\"menu-link\"><i class=\"icon-align-justify icon-white\"></i> Menu</a>\n		<nav id=\"menu\" role=\"navigation\">\n			<ul>\n				<?php wp_list_pages('title_li='); ?>\n				</ul>\n		</nav>\n    </header>\n",
-			"file": "/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/header.php",
-			"file_size": 3109,
-			"file_write_time": 1351172711000000,
+			"file": "wpsc-grid_view.php",
 			"settings":
 			{
-				"buffer_size": 3109,
+				"buffer_size": 9468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.php",
+			"settings":
+			{
+				"buffer_size": 1398,
 				"line_ending": "Unix"
 			}
 		}
@@ -70,12 +75,16 @@
 	"build_system": "Packages/Sass/SASS/SASS (OSX).sublime-build",
 	"command_palette":
 	{
-		"height": 207.0,
+		"height": 48.0,
 		"selected_items":
 		[
 			[
 				"insta",
 				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
 			],
 			[
 				"sass",
@@ -215,12 +224,30 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/wpsc-products_page.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/plugins/gold-cart-plugin-2.9.7.2/css/grid_view.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/about.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/plugins/gold-cart-plugin-2.9.7.2/gold_shopping_cart.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/wpsc-default.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/sidebar.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/shop.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/plugins/gold-cart-plugin-2.9.7.2/css/gold_cart.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/plugins/gold-cart-plugin-2.9.7.2/css/grid_view_original.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/compatibility.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/wp-e-commerce/wpsc-theme/compatibility.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/wpsc-default.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/wp-e-commerce/wpsc-theme/wpsc-default.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/wp-e-commerce.zip",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/wpsc-cart_widget.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/css/cart.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/index.php",
+		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/sidebar.php",
+		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/header.php",
 		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/sass/style.scss",
 		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/sass/shop.scss",
 		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/css/style.css",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/error/loop.php",
 		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/about.php",
-		"/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/header.php",
 		"/Users/tyler/Desktop/sample/js/",
 		"/Users/tyler/Desktop/sample/sample.sublime-project",
 		"/Users/tyler/Desktop/sample/script.js",
@@ -293,6 +320,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"article",
+			"grid_view_products_page_container",
+			"#069",
 			".c",
 			"<</",
 			"import",
@@ -307,7 +337,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -316,7 +346,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -324,15 +354,15 @@
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 2978,
+						"buffer_size": 3096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								978,
+								978
 							]
 						],
 						"settings":
@@ -431,31 +461,25 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "index.php",
+					"file": "sass/shop.scss",
 					"settings":
 					{
-						"buffer_size": 293,
+						"buffer_size": 400,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								384,
+								340
 							]
 						],
 						"settings":
@@ -548,7 +572,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/Sass/SASS/Syntaxes/SASS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -558,18 +583,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "sidebar.php",
+					"file": "sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 904,
+						"buffer_size": 12887,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								371,
+								371
 							]
 						],
 						"settings":
@@ -662,29 +687,29 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/Sass/SASS/Syntaxes/SASS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6621.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/sidebar.php",
+					"file": "sass/global.scss",
 					"settings":
 					{
-						"buffer_size": 943,
+						"buffer_size": 657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								224,
-								224
+								335,
+								335
 							]
 						],
 						"settings":
@@ -777,8 +802,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Sass/SASS/Syntaxes/SASS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -788,18 +812,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/Users/tyler/Google Drive/Sites/wordpress/wp-content/themes/error/header.php",
+					"file": "wpsc-grid_view.php",
 					"settings":
 					{
-						"buffer_size": 3109,
+						"buffer_size": 9468,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1884,
-								1884
+								26,
+								26
 							]
 						],
 						"settings":
@@ -893,8 +917,122 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "about.php",
+					"settings":
+					{
+						"buffer_size": 1398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -902,6 +1040,11 @@
 					},
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -933,7 +1076,7 @@
 		"cols":
 		[
 			0.0,
-			0.491242396333,
+			0.478294743831,
 			1.0
 		],
 		"rows":
