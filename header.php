@@ -8,7 +8,9 @@
  * @subpackage Starkers
  * @since Starkers HTML5 3.0
  */
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <!-- MAMPtastic --> 
@@ -30,6 +32,8 @@
  
     ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/shop.css" media="screen" />
     
