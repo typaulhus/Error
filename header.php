@@ -42,7 +42,6 @@
 <!--lightbox -->
 <link href="<?php bloginfo('template_directory'); ?>/js/lightbox/css/lightbox.css" rel="stylesheet" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
-<!-- <script src="<?php bloginfo('template_directory'); ?>/js/lightbox/js/jquery-1.7.2.min.js"></script> -->
 <script src="<?php bloginfo('template_directory'); ?>/js/lightbox/js/lightbox.js"></script>
 
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
