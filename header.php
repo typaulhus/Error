@@ -46,7 +46,8 @@
 
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
 
-
+<!-- Mint -->
+<script src="/mint/?js" type="text/javascript"></script>
 <!-- Adobe Edge fonts -->
 <script src="http://use.edgefonts.net/bree-serif.js"></script>
 
@@ -97,8 +98,11 @@ $menulink.click(function() {
 		 
 		 <a href="#menu" class="menu-link"><i class="icon-align-justify icon-white"></i> Menu</a>
 		<nav id="menu" role="navigation">
-			<ul>
-				<?php wp_list_pages('title_li='); ?>
-				</ul>
+			<!-- <ul>
+        <?php wp_list_pages('title_li='); ?>
+        </ul> -->
+        <ul>
+           <?php wp_nav_menu( $args ); ?> 
+        </ul>
 		</nav>
     </header>

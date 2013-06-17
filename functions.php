@@ -296,3 +296,70 @@ function login_css() {
 	wp_enqueue_style( 'login_css', get_template_directory_uri() . '/css/login.css' );
 }
 add_action('login_head', 'login_css');
+
+//custom post types
+add_theme_support('post-formats',
+array( 'aside', 'gallery','link','image','quote','status','video
+','audio','chat' ) );
+
+
+if ( ! function_exists('my_custom_post_types')):
+
+	function my_custom_post_types(){
+
+// Added post type Portfolio
+		register_post_type('projects', array(	
+			'label' => 'Projects',
+			'description' => '',
+			'public' => true,
+			'show_ui' => true,
+			'show_in_menu' => true,
+			'capability_type' => 'post',
+			'hierarchical' => false,
+			'rewrite' => array('slug' => ''),
+			'query_var' => true,
+			'exclude_from_search' => false,
+			'supports' => array(
+								'title',
+								'editor',
+								'excerpt',
+								'trackbacks',
+								'custom-fields',
+								'comments',
+								'revisions',
+								'thumbnail',
+								'author',
+								'page-attributes',),
+			'labels' => array (
+				 'name' => 'Projects',
+				 'singular_name' => 'project',
+				 'menu_name' => 'Projects',
+				 'add_new' => 'Add Project',
+				 'add_new_item' => 'Add New Project',
+				 'edit' => 'Edit',
+				 'edit_item' => 'Edit Project',
+				 'new_item' => 'New Project',
+				 'view' => 'View Project',
+				 'view_item' => 'View Project',
+				 'search_items' => 'Search Projects',
+				 'not_found' => 'No Project Found',
+				 'not_found_in_trash' => 'No Project Found in Trash',
+				 'parent' => 'Parent Project',
+				),
+		) );
+	}
+	add_action('init', 'my_custom_post_types');
+endif;
+
+//search shortcode
+add_shortcode('wpsearch', 'get_search_form');
+
+
+//search in custom post type
+function filter_search($query) {
+    if ($query->is_search) {
+	$query->set('post_type', array('projects'));
+    };
+    return $query;
+};
+add_filter('pre_get_posts', 'filter_search');

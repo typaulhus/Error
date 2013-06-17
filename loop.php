@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The loop that displays posts.
  *
@@ -6,6 +6,7 @@
  * @subpackage Starkers
  * @since Starkers HTML5 3.0
  */
+query_posts(array('post_type' => array('post', 'pdf')));
 ?>
  
 <?php /* Display navigation to next/previous pages when applicable */ ?>
@@ -17,6 +18,11 @@
 <?php endif; ?>
  
 <?php /* If there are no posts to display, such as an empty archive page */ ?>
+
+
+
+
+
 <?php if ( ! have_posts() ) : ?>
         <h1><?php _e( 'Not Found', 'starkers' ); ?></h1>
             <p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'starkers' ); ?></p>
